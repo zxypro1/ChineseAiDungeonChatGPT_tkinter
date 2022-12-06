@@ -201,7 +201,9 @@ class ChatApplication:
         self.show_background_window()
         self._init_background(self.background)
         access_token = Auth.get_access_token()
-        config["session_token"] = access_token
+        # config["session_token"] = access_token
+        # config["Authorization"] = "<API-KEY>"
+        # print(config)
         self.story_teller = StoryTeller(config, self.background)
 
     def start_toplevel_window(self, msg):

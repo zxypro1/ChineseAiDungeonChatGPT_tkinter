@@ -1,3 +1,6 @@
 
 dist
 build
+__pycache__
+.idea
+Classes/ChineseAIDungeon0.1.exe
