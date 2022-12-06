@@ -1,0 +1,2 @@
+# ChineseAiDungeonChatGPT_tkinter
+中文AI地牢项目的简易tkinterGUI。包含token验证，登陆，自定义初始故事功能。
